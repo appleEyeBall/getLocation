@@ -1,4 +1,7 @@
- @Override
+final int LOCATION_REQUEST_CODE = 111;  //member variables
+    GoogleApiClient googleApiClient;  //member variable
+
+@Override
     public void onConnected(@Nullable Bundle bundle) {
         checkAndRequestLocationPermission();
 
